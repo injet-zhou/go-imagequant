@@ -20,6 +20,7 @@ package imagequant
 #cgo windows,amd64 LDFLAGS: -Llibs/windows/amd64 -limagequant -ldl -lm
 #cgo linux,386 LDFLAGS: -Llibs/linux/386 -limagequant -ldl -lm
 #cgo linux,amd64 LDFLAGS: -Llibs/linux/amd64 -limagequant -ldl -lm
+#cgo linux,arm64 LDFLAGS: -Llibs/linux/amd64 -limagequant -ldl -lm
 #cgo freebsd,386 LDFLAGS: -Llibs/freebsd/386 -limagequant -ldl -lm
 #cgo freebsd,amd64 LDFLAGS: -Llibs/freebsd/amd64 -limagequant -ldl -lm
 #cgo darwin,386 LDFLAGS: -Llibs/darwin/386 -limagequant -ldl -lm
